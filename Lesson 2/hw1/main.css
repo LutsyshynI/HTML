@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+.father{
+    /*background: silver;*/
+   height: 800px;
+    width: 500px;
+    box-sizing: border-box;
+    overflow: hidden;
+    /*margin: auto;*/
+}
+
+h2{
+    margin: 0;
+}
+.w{
+    height: 200px;
+    margin-bottom: 15px;
+
+
+    background: #246abc;
+   color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+    /*align-items: center;*/
+}
+.allw{
+    box-sizing: border-box;
+    height: 200px;
+    /*background: blue;*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    display:flex;
+    justify-content: space-between;
+}
+h4{
+    margin: 0;
+
+}
+
+.bw{
+    background: #18467b;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 70px;*/
+    width: 200px;
+}
+.bgw{
+    background: #18467b;
+    color: white;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 15px;
+
+    width: 200px;
+}
+.hw{
+    background: #18467b;
+    color: white;
+
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact{
+    background: #246abc;
+    color: white;
+
+    height: 400px;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*.contact > h2{*/
+/*    margin: 0;*/
+/*}*/

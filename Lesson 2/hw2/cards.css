@@ -1,0 +1,42 @@
+.father{
+
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    width: 270px;
+    height: 320px;
+    /*background: silver;*/
+
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 40px;
+    margin: 20px;
+    border: 1px solid black;
+}
+.hp{
+    box-sizing: border-box;
+}
+.hp>p{
+
+    text-align:center;
+}
+.hp>h2{
+    /*box-sizing: border-box;*/
+    text-align:center;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.button1>button{
+    width: 180px;
+    height: 50px;
+}
