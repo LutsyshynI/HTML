@@ -1,0 +1,49 @@
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 700px;
+    height: 500px;
+}
+.card{
+    border: 1px solid black;
+    width: 200px;
+    height: 350px;
+
+    text-align: center;
+
+
+
+}
+.icon{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background: white;
+    color: #f1eb06;
+    /*margin-left: 60px;*/
+    /*margin-right: 60px;*/
+    text-align: center;
+    vertical-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    border-radius: 50%;
+
+    position:relative;
+    left: 60px;
+    top: -40px;
+
+
+
+}
+.button{
+    border: 1px solid black;
+    height: 40px;
+    width: 140px;
+    margin-left: 30px;
+    margin-top: 60px;
+    vertical-align: center;
+    line-height: 40px;
+}
