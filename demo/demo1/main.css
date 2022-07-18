@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.top{
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+.tone{
+    height: 80px;
+    width: 100px;
+    background: #18467b;
+}
+.ttwo{
+    height: 80px;
+    width: 400px;
+    background: #18467b;
+}
+.mcenter{
+    display: flex;
+    column-gap: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.lone{
+    width: 100px;
+    height: 250px;
+    background: #ee9d07;
+}
+.ltwo{
+    height: 80px;
+    width: 100px;
+    background: #18467b;
+}
+.lthree{
+    height: 80px;
+    width: 100px;
+    background: #18467b;
+}
+.center{
+
+}
+.cone{
+    width: 250px;
+    height: 100px;
+    background: #1a5ede;
+}
+.ctwo{
+    width: 250px;
+    height: 320px;
+    background: #18467b;
+    margin-top: 10px;
+}
+.rone{
+    height: 100px;
+    width: 140px;
+    background: #1a5ede;
+}
+.rtwo{
+    width: 140px;
+    height: 320px;
+    background: #18467b;
+    margin-top: 10px;
+}
+.bottom{
+    height: 80px;
+    width: 510px;
+    background: chartreuse;
+    margin-top: 10px;
+}
+@media screen and (max-width: 1000px){
+    .ttwo{
+        background: chartreuse;
+    }
+}

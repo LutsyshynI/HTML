@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+
+.father{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+.a{
+    width: 100%;
+    height: 30%;
+    background: silver;
+    text-align: center;
+    vertical-align: center;
+    line-height: 150px;
+    border-radius: 10px;
+}
+.cont{
+    height:66%;
+    margin-top: 10px;
+    display: flex;
+}
+.bcde{
+    width: 80%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap: 5px;
+}
+.b{
+    background: #75816a;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 150px;
+}
+.c, .d, .e {
+    height: 50%;
+    width: 32.5%;
+    background: #1a5ede;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 150px;
+
+}
+.f{
+    width: 20%;
+    height: 100%;
+    background: #f1eb06;
+    margin-left: 10px;
+    /*margin-bottom: 10px;*/
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 350px;
+
+}
+@media screen and (max-width:1000px) {
+.father{
+    width: 300px;
+}
+ .cont{
+    flex-direction: column;
+
+       }
+ .bcde{
+     width: 100%;
+        column-gap: 5px;
+ }
+    .c, .d, .e {
+        width: 32%;
+        height: 20%;
+        line-height: 55px;
+        border-radius: 20%;
+    }
+.f{
+    width: 100%;
+    height: 20%;
+    margin: 10px 0 0 0;
+    line-height: 80px;
+}
+
+
+}

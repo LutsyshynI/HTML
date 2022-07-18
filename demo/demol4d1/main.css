@@ -1,0 +1,19 @@
+.box {
+
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.active {
+    order: 1;
+    flex:  100%;
+}
+
+
+.b{
+    height: 100px;
+    width: 100px;
+    background: #ee9d07;
+    margin: 10px;
+}
